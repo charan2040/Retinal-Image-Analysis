@@ -3,16 +3,15 @@ import gradio as gr
 from src.model import DRModel
 from torchvision import transforms as T
 
-CHECKPOINT_PATH = "artifacts/dr-model.ckpt"
+CHECKPOINT_PATH = "artifacts/checkpoints/run-2025-04-16-23-41-59/epoch=19-step=40-val_loss=0.79-val_acc=0.80-val_kappa=nan.ckpt"
 model = DRModel.load_from_checkpoint(CHECKPOINT_PATH, map_location="cpu")
+
 model.eval()
 
 labels = {
     0: "No DR",
-    1: "Mild",
-    2: "Moderate",
-    3: "Severe",
-    4: "Proliferative DR",
+    1: "Moderate",
+    2: "Severe",
 }
 
 transform = T.Compose(
