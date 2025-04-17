@@ -21,6 +21,6 @@ This project focuses on analyzing large-scale retinal datasets and detecting the
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/Nitin3290/Retinal-Image-Analysis-DR-CNN
-cd Retinal-Image-Analysis-DR-CNN
+git clone https://github.com/Nitin3290/Retinal-Image-Analysis
+cd Retinal-Image-Analysis
 pip install -r requirements.txt

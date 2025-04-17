@@ -42,10 +42,10 @@ dr_app = gr.Interface(
         This app utilizes deep learning models to detect diabetic retinopathy in retinal images.\
         Diabetic retinopathy is a common complication of diabetes and early detection is crucial for effective treatment.",
     examples=[
-        "data/sample/10_left.jpeg",
-        "data/sample/10_right.jpeg",
-        "data/sample/15_left.jpeg",
-        "data/sample/16_right.jpeg",
+        "data/diabetic-retinopathy-dataset/sample/10_left.jpeg",
+        "data/diabetic-retinopathy-dataset/sample/10_right.jpeg",
+        "data/diabetic-retinopathy-dataset/sample/15_left.jpeg",
+        "data/diabetic-retinopathy-dataset/sample/16_right.jpeg",
     ],
 )
 
