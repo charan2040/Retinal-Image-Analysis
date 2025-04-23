@@ -21,6 +21,10 @@ This project focuses on analyzing large-scale retinal datasets and detecting the
 ## 📂 Dataset
 
 - Kaggle Diabetic Retinopathy Detection: https://www.kaggle.com/c/diabetic-retinopathy-detection
+- Publicly available fundus image datasets (e.g., Kaggle’s “APTOS 2019”)  
+- Contains graded images across 5 severity levels (No DR → Proliferative DR)  
+- Balanced / augmented to reduce class imbalance  
+
 
 ## 📦 Installation
 
