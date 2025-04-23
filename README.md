@@ -1,8 +1,12 @@
-# Retinal Image Analysis for Diabetic Retinopathy Detection 🧠📊
+# Retinal Image Analysis for Diabetic Retinopathy Detection 
 
-A deep learning-based solution for early-stage detection of diabetic retinopathy using CNN and transfer learning techniques.
+ A deep learning-based solution for early-stage detection of diabetic retinopathy using CNN and transfer learning techniques.
+ Automates detection of diabetic retinopathy from fundus images  
+ Leverages a Convolutional Neural Network (CNN) for end-to-end classification  
+ Helps flag early signs of DR to assist ophthalmologists  
 
-## 🚀 Overview
+
+##  Overview
 
 This project focuses on analyzing large-scale retinal datasets and detecting the severity of diabetic retinopathy through deep learning models. The pipeline is built using PyTorch Lightning and integrates preprocessing, model training, evaluation, and visualization.
 
